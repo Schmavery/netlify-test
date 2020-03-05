@@ -2,4 +2,4 @@
   command = "yarn export"
   base = "frontend/website2"
   publish = "out"
-  ignore = "! (git diff HEAD..$(git merge-base origin/develop HEAD) --name-only | grep -E -q '^frontend/website')"
+  ignore = "(git diff HEAD..$(git merge-base origin/develop HEAD) --name-only | grep -E -q '^frontend/website2')"
