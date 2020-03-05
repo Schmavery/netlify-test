@@ -7,7 +7,7 @@
     "dev:next": "next dev -p 8000",
     "clean": "bsb -clean-world",
     "build": "bsb -make-world && next build",
-    "export": "git diff HEAD..$(git merge-base origin/develop HEAD) --name-only && yarn build && next export",
+    "export": "git diff HEAD..$(git merge-base origin/master HEAD) --name-only && yarn build && next export",
     "start": "next start -p 8000",
     "deploy": "yarn build:reason && now"
   },
