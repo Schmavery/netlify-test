@@ -38,3 +38,4 @@ There are 2 convenience scripts to facilitate running these separate processes:
    script. This will also hot reload as you make changes.
 
 You should start the scripts in the presented order.
+build
