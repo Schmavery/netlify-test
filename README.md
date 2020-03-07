@@ -1,3 +1,2 @@
 # netlify-test
 
-conflict
