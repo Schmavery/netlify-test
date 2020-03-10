@@ -1,4 +1,4 @@
 [build]
-  command = "yarn export"
+  command = "yarn netlify"
   publish = "out"
   ignore = "git diff --quiet HEAD^ HEAD -- . || git show --summary $COMMIT_REF | grep -q ^Merge:"

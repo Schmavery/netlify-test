@@ -8,6 +8,7 @@
     "clean": "bsb -clean-world",
     "build": "bsb -make-world && next build",
     "export": "bash -c \"$INJECTED_COMMAND\" && yarn build && next export",
+    "netlify": "cp -R /opt/build/cache/.next . ; yarn run export ; cp -R .next /opt/build/cache/",
     "start": "next start -p 8000",
     "deploy": "yarn build:reason && now"
   },
