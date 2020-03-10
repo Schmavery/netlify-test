@@ -2,4 +2,4 @@
   command = "yarn export"
   base = "frontend/website2"
   publish = "out"
-  ignore = "git diff --quiet HEAD^ HEAD -- . || git show --summary $COMMIT_REF | grep -q ^Merge:"
+  ignore = "git diff --quiet HEAD^ HEAD -- . || git show --summary HEAD | grep -q ^Merge:"
